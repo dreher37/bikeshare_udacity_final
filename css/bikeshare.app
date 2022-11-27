@@ -21,7 +21,7 @@ def get_filters():
     city = input('Enter the city you want see data for Chicago , New York City or Washington : ')
     city = city.casefold()
     while city not in CITY_DATA:
-        city = input('Invalid city name.Please Try Again!')
+        city = input('Invalid city.Please Try Again!')
         city = city.casefold()
         
        
